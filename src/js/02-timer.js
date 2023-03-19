@@ -9,15 +9,15 @@ const minutesTame = document.querySelector('span[data-minutes]');
 const hoursTame = document.querySelector('span[data-hours]');
 const daysTame = document.querySelector('span[data-days]');
 const blockTamer = document.querySelector('.timer');
-const blockField = document.querySelector('.field');
+// const blockValue = document.querySelectorAll('.value');
 
 blockTamer.style.display = 'flex';
 blockTamer.style.fontSize = '24px';
 blockTamer.style.gap = '20px';
 blockTamer.style.marginTop = '40px';
-blockField.style.display = 'flex';
-blockField.style.flexDirection = 'column';
-blockField.style.alignItems = 'center';
+// blockValue.style.fontSize = '48px';
+// blockField.style.flexDirection = 'column';
+// blockField.style.alignItems = 'center';
 
 btnStart.setAttribute(`disabled`, true);
 btnStart.addEventListener('click', onStartTimer);  
